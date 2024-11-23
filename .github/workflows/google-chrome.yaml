@@ -1,0 +1,17 @@
+name: google-chrome
+on:
+  push:
+    paths:
+      - '.github.workflows/google-chrome.yaml'
+      - '.github.workflows/build.yaml'
+      - 'packages/google-chrome/**'
+      - 'flake.yaml'
+      - 'flake.lock'
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yaml
+    with:
+      package: google-chrome
+      runner: ubuntu-latest
