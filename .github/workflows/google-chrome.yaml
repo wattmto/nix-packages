@@ -14,3 +14,4 @@ jobs:
     uses: ./.github/workflows/build.yaml
     with:
       package: google-chrome
+      runner: ubuntu-latest
