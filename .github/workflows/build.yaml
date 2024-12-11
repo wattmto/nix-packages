@@ -21,4 +21,4 @@ jobs:
             sandbox = true
       - uses: DeterminateSystems/magic-nix-cache-action@v6
       - name: Build package
-        run: nix build .#${{ inputs.package }}
+        run: nix build --sandbox .#${{ inputs.package }}
