@@ -34,7 +34,7 @@ stdenvNoCC.mkDerivation {
     runHook preInstall
 
     mkdir -p $out/Applications
-    cp -a "Google Chrome.app" $out/Applications
+    cp -a "Google Chrome/Google Chrome.app" $out/Applications
 
     runHook postInstall
   '';
