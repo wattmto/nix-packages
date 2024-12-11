@@ -25,7 +25,7 @@ stdenvNoCC.mkDerivation {
   unpackPhase = ''
     runHook preUnpack
 
-    7zz e -y $src "Google Chrome/Google Chrome.app"
+    7zz x $src || true
 
     runHook postUnpack
   '';
