@@ -3,5 +3,5 @@
 {
   version = "131.0.6778.86";
   url = "https://dl.google.com/chrome/mac/universal/stable/CHFA/googlechrome.dmg";
-  hash = "sha256-IAH1ezwb5vy6afpEPbXEviGzg164sSRdQZvpLE47GqQ=";
+  hash = "sha256-7TrKExKlzmVGL1QAJ1tPntxsDKEyHemYg3mTWBHniyY=";
 }
